@@ -14,6 +14,9 @@
 		A119F4CA20425E1700BB59C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A119F4C820425E1700BB59C1 /* LaunchScreen.storyboard */; };
 		A119F4D520425E1800BB59C1 /* ParseWeek3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119F4D420425E1800BB59C1 /* ParseWeek3Tests.swift */; };
 		A119F4E020425E1800BB59C1 /* ParseWeek3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119F4DF20425E1800BB59C1 /* ParseWeek3UITests.swift */; };
+		A119F4F02042609B00BB59C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119F4EF2042609B00BB59C1 /* LoginViewController.swift */; };
+		A15782D4204285C000D92B78 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15782D3204285C000D92B78 /* ChatViewController.swift */; };
+		A15782D6204287CB00D92B78 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15782D5204287CB00D92B78 /* ChatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A119F4DB20425E1800BB59C1 /* ParseWeek3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseWeek3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A119F4DF20425E1800BB59C1 /* ParseWeek3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseWeek3UITests.swift; sourceTree = "<group>"; };
 		A119F4E120425E1800BB59C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A119F4EF2042609B00BB59C1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A15782D3204285C000D92B78 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = ../ChatViewController.swift; sourceTree = "<group>"; };
+		A15782D5204287CB00D92B78 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		A119F4BE20425E1700BB59C1 /* ParseWeek3 */ = {
 			isa = PBXGroup;
 			children = (
+				A119F4EF2042609B00BB59C1 /* LoginViewController.swift */,
 				A119F4BF20425E1700BB59C1 /* AppDelegate.swift */,
 				A119F4C120425E1700BB59C1 /* ViewController.swift */,
+				A15782D3204285C000D92B78 /* ChatViewController.swift */,
+				A15782D5204287CB00D92B78 /* ChatCell.swift */,
 				A119F4C320425E1700BB59C1 /* Main.storyboard */,
 				A119F4C620425E1700BB59C1 /* Assets.xcassets */,
 				A119F4C820425E1700BB59C1 /* LaunchScreen.storyboard */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A119F4F02042609B00BB59C1 /* LoginViewController.swift in Sources */,
 				A119F4C220425E1700BB59C1 /* ViewController.swift in Sources */,
+				A15782D4204285C000D92B78 /* ChatViewController.swift in Sources */,
+				A15782D6204287CB00D92B78 /* ChatCell.swift in Sources */,
 				A119F4C020425E1700BB59C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R9K86BYBP;
 				INFOPLIST_FILE = ParseWeek3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.ParseWeek3;
@@ -441,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R9K86BYBP;
 				INFOPLIST_FILE = ParseWeek3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.ParseWeek3;
